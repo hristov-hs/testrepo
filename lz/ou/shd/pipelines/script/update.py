@@ -63,5 +63,6 @@ def get_cb_name(event):
     return set(cb_name)
 
 asd = get_cb_name(test_json)
-print(len(asd))
+asd.add("asdasd")
 
+print(asd)
